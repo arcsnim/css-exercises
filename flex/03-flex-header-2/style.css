@@ -46,3 +46,45 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* ----------------------- */
+
+.header {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-content: center;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  margin-right: 0;
+  margin-left: 1px;
+  /*flex: 0 1 auto;*/
+  padding-left: 8px;
+  /*justify-content: space-between;*/
+}
+
+.notifications {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.profile-image {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.logo {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 8px;
+}
